@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin:0%;
+    padding:0%;
+}
+
+body{
+  background-color:rgb(224, 202, 174);
+
+  
+}
+
+/*first div */
+#div1{
+    border:solid 3px;
+    width:500px;
+    height:600px;
+    margin-left:25%;
+    margin-right:50%;
+    margin:calc(-50% -50%);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*header dives*/
+#divhead{
+    text-align: center;
+}
+
+#h3div{
+    border:1px solid;
+    height:20px;
+    width:180px;
+    margin-left:33%;
+    margin-top:-12px;
+    background-color:rgb(116, 36, 36);
+    border-radius:10px;
+    padding:2px;
+    
+}
+
+#h3{
+    color:white;
+    margin-top:-3px;
+}
+
+#p4{
+    color:beige;
+    letter-spacing:4px;
+    margin-left:12px;
+}
+
+/* second div section*/
+#cdiv{
+    backdrop-filter: blur(50px);
+    border:solid 2px rgb(175, 132, 52);
+    width:230px;
+    height:520px;
+    margin-top:2%;
+    margin-left:2%;
+    border-radius:5px;
+    float:left;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*image section*/
+#img1{
+    margin-top:-12px;
+    width:226px;
+    height:300px;
+}
+
+/*text after image */
+#h1,#h2{
+    text-align: center;
+    font-size:60px;
+    color:rgba(151, 125, 91, 1.0);
+}
+
+#h2{
+    margin-top:-15%;
+    font-weight: bolder;
+}
+
+/*line after image */
+#p1{
+    border:solid 1.5px black;
+    width:90px;
+    margin-left:5px;
+    padding:1px;
+    border-top-left-radius:100% ;
+    border-bottom-left-radius:100% ;
+    background-color:rgba(151, 125, 91, 1.0);
+}
+
+#p2{
+    background-color:black;
+    border:solid 2px;
+    margin-left:10px;
+    border-radius:60%;
+    padding:1px;
+    color:rgba(151, 125, 91, 1.0);
+}
+
+#p3{
+    border:solid 1.5px black;
+    width:90px;
+    margin-left:10px;
+    border-top-right-radius:100% ;
+    border-bottom-right-radius:100% ; 
+    background-color:rgba(151, 125, 91, 1.0);
+}
+
+/* second image section*/
+#img2{
+    margin-left:32%;
+    margin-right:auto;
+    width:80px;
+   
+
+}
+
+/*end of first div */
+
+/*first div for price list*/
+#ph1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*line after text*/
+#pp1{
+    border:solid 1.5px;
+    width:90px;
+    margin-left:19px;
+    padding:0.5px;
+    border-top-left-radius:100% ;
+    border-bottom-left-radius:100% ;
+    background-color:rgba(151, 125, 91, 1.0);
+   
+}
+
+#pp2{
+    color:rgba(151, 125, 91, 1.0);
+    border:solid 2px;
+    margin-left:10px;
+    border-radius:60%;
+    background-color:rgba(151, 125, 91, 1.0);
+}
+
+#pp3{
+    border:solid 1.5px;
+    width:90px;
+    margin-left:10px;
+    border-top-right-radius:100% ;
+    border-bottom-right-radius:100% ; 
+    background-color:rgba(151, 125, 91, 1.0);
+}
+/*text after espresso line*/
+#pt1{
+   text-align: center;
+   margin-top:-8px;
+   font-weight: bolder;
+   color:rgba(151, 125, 91, 1.0);
+}
+#t1{
+    font-size:x-small;
+    margin-top:-20px;
+    text-align: center;
+    margin-right:75px;
+    font-weight: bolder;
+    color:antiquewhite;
+}
+/*AMERICANO DIV*/
+#ah1{
+    margin-top:-7px;
+    text-align: center;
+    margin-right:4px;
+    font-weight: bolder;
+}
+/*CHOCOLATE SECTION*/
+#ch1{
+    text-align: center;
+    margin-top:-8px;
+    margin-right:3px;
+    font-weight: bolder;
+}
+#ph1,#ah1,#ch1{
+    color:rgba(151, 125, 91, 1.0);
+}
+/*media querry*/
+@media all and (max-width:767px) {
+    #div1{
+        margin-left:1%;
+        margin-right:50%;
+    }
+}
